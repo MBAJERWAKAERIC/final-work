@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Mbaje RWaka Eric |Abou t </title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./js/script.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="./img/icon.ico">	<!--to add an icon before the title-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">	<!--I have used 'Open Sans' font from Google Fonts-->
+        <script>
+            /*to hide preloader spinner after a specific time*/
+            $(document).ready(function(){
+                preLoader("#overlay");
+            });
+        </script>
+    </head>
+	
+    <body>
+        <div id="overlay">
+            <div class="spinner"></div> 
+        </div>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <a href="index.html"><h1> <span class="highlight">Mbaje</span> Rwaka Eric </h1></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+		
+        <section id="newsletter">
+            <div class="container">
+                <h1> Subscribe To Our Newsletter </h1>
+                <form>
+                    <input type="text" id="emailInput" placeholder="Enter Email...">
+                    <button type="button" id="subscribeBtn" class="button_1">Subscribe</button>
+                    <label id="errorlbl" style="display: none; color: red;"></label>
+                </form>
+            </div>
+        </section>
+		
+        <section id="main">
+            <div class="container">
+                <article id="main-col">
+					<span class="page-title"> About Us </span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ex ac bibendum bibendum. Ut ac commodo quam. Aliquam in erat auctor, blandit mauris ut, fermentum ligula. Phasellus luctus quam nulla, nec dapibus erat laoreet sit amet. Curabitur sed dui id massa consectetur faucibus vel blandit ex. Nulla eget urna pretium, maximus lectus at, tempus ligula. Mauris tristique sed ex eget fermentum. Vestibulum at iaculis lacus. Vestibulum lacinia magna quis dolor sodales, sit amet suscipit lectus tristique. Cras erat enim, rhoncus vel aliquam et, ornare sit amet ligula.</p>
+					<p class="dark">Nam venenatis diam et tortor porta, quis aliquam eros hendrerit. Etiam vel tellus tristique tortor pulvinar porttitor vel et neque. Pellentesque purus lacus, scelerisque vitae molestie at, imperdiet non est. Curabitur sollicitudin metus ac maximus lacinia. Quisque ligula enim, dapibus eu leo eu, consectetur sollicitudin tellus. Duis nibh nibh, laoreet nec orci ac, commodo fringilla erat. Nullam et diam quis lectus sodales elementum a ut augue. Aenean ultricies nulla vel eros tristique, posuere mattis leo tincidunt. Aliquam erat volutpat. Pellentesque condimentum placerat porttitor. Sed non lorem odio.</p>
+				</article>
+				
+				<aside id="sidebar">
+					<div class="dark">
+						<h3> What We Do </h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere ex ac bibendum bibendum. Ut ac commodo quam. Aliquam in erat auctor, blandit mauris ut, fermentum ligula. Phasellus luctus quam nulla, nec dapibus erat laoreet sit amet.</p>
+					</div>
+				</aside>
+            </div>
+        </section>
+		
+        <footer>
+            <p> Mbaje Rwaka Eric, Copyright &copy; 2017 </p>
+        </footer>
+    </body>
+</html>
