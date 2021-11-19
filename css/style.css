@@ -20,7 +20,7 @@ body{
     left:0;
     right: 0;
     margin: auto;
-	animation: spin 3s infinite linear;
+	animation: spin 2s infinite linear;
 	-webkit-animation: spin 1s infinite linear;
 }
 
@@ -95,18 +95,18 @@ ul{
 
 /* Header */
 header{
-    background: #35424a;
+    background: #189aeb;
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;   /* to set the min height of header to 70px, it doesn't go below that value */
-    border-bottom: 3px solid #e8491d;
+    padding-top: 20px;
+    min-height: 40px;   /* to set the min height of header to 70px, it doesn't go below that value */
+    border-bottom: 3px solid #1de86b;
 }
 
 header nav a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 header li{
