@@ -20,7 +20,7 @@ body{
     left:0;
     right: 0;
     margin: auto;
-	animation: spin 2s infinite linear;
+	animation: spin 1s infinite linear;
 	-webkit-animation: spin 1s infinite linear;
 }
 
